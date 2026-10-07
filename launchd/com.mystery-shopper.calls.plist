@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.mystery-shopper.calls</string>
+  <key>ProgramArguments</key><array><string>/Users/radmirbambo/mystery-shopper/run.sh</string><string>watch-calls</string></array>
+  <key>WorkingDirectory</key><string>/Users/radmirbambo/mystery-shopper</string>
+  <key>StartInterval</key><integer>120</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardOutPath</key><string>/Users/radmirbambo/mystery-shopper/logs/calls.log</string>
+  <key>StandardErrorPath</key><string>/Users/radmirbambo/mystery-shopper/logs/calls.log</string>
+</dict></plist>
